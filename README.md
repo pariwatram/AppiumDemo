@@ -6,11 +6,11 @@ To check this demo on your device
 
 Commands to run : 
 
-1- Clone this repo and update the APK path to your path (Absolute Path)
+1- Clone this repo and update the APK / IPA path to your path (Absolute Path)
 
-2- npm install 
-
-3- react-native run-android
+2- `yarn`
+2.1- `cd ios && pod install && cd ..`
+3- `react-native run-android` or `react-native run-ios`
 
 4- Start the appium server desktop version OR yarn run appium in the terminal 
 
